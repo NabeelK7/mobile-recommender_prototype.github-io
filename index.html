@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Result</title>
+    </head>
+    <body>
+        <h2>Mobile Recommender</h2>
+        <form method="get" action="main.php">
+            <table>
+                <tr>
+                    <td>
+                        <b>Select Brand Name</b>
+                        </td>
+                </tr>
+                <tr>
+                 <td>
+                     <input type="radio" name="mname" value="samsung" />Samsung
+                     <input type="radio" name="mname" value="oneplus" />OnePlus
+                     <input type="radio" name="mname" value="redmi" />Redmi
+                     <input type="radio" name="mname" value="iphone" />iphone
+                     <input type="radio" name="mname" value="vivo" />Vivo
+             </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>  Select Price Range</b>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="price"  value="2000"/>Less than 5000
+                        <input type="radio" name="price" value="5000" />5000 to 10000
+                        <input type="radio" name="price" value="10000" />10000 to 20000
+                        <input type="radio" name="price" value="20000" />20000 to 30000
+                        <input type="radio" name="price"  value="30000" />Greater than 30000
+                    </td>
+                </tr>
+                <tr>
+                    <td>  
+                        <b> Select RAM Capacity</b>
+                    </td>
+                </tr>
+                <td>
+                    <input type="radio" name="ram" value="4GB" />Less than 4GB
+                    <input type="radio" name="ram" value="6GB" />6GB
+                    <input type="radio" name="ram" value="8GB" />8GB
+                    <input type="radio" name="ram" value="12GB" />Greater than 8GB  
+                </td>
+                <tr>
+                    <td>
+                        <b> Select Internal Memory</b> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="memory" value="8GB" />8GB
+                        <input type="radio" name="memory" value="32GB" />32GB
+                        <input type="radio" name="memory" value="64GB" />64GB
+                        <input type="radio" name="memory" value="128GB" />128GB
+                        <input type="radio" name="memory" value="256GB" />Greater than 128GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="OK" name="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
